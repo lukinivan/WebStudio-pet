@@ -691,12 +691,10 @@ img {
 
 .portfolio-list-item {
   max-width: 288px;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 @media only screen and (min-width: 768px) {
   .portfolio-list-item {
-    transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
     width: calc((100% - 24px) / 2);
   }
 }
@@ -749,12 +747,12 @@ img {
   color: #f4f4fd;
 }
 
-.portfolio .list-item:hover {
+.portfolio-list-item:hover {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.portfolio .list-item:hover .portfolio-overlay {
+.portfolio-list-item:hover .portfolio-overlay {
   transform: translateY(0%);
 }
 
