@@ -785,6 +785,7 @@ img {
   .footer .container {
     flex-direction: row;
     flex-wrap: wrap;
+    padding-left: 108px;
     gap: 72px 24px;
   }
 }
@@ -792,6 +793,7 @@ img {
 @media only screen and (min-width: 1158px) {
   .footer .container {
     display: flex;
+    padding-left: 15px;
     gap: 0;
   }
 }
@@ -808,7 +810,6 @@ img {
   .foor-logo-box {
     display: flex;
     flex-direction: column;
-    margin-left: 108px;
     gap: 16px;
   }
 }
@@ -912,7 +913,6 @@ img {
 @media only screen and (min-width: 768px) {
   .foot-subscribe-box {
     flex-direction: column;
-    margin-left: 108px;
   }
 }
 
